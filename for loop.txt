@@ -1,0 +1,8 @@
+var o;
+function printprops(o) {
+for (var p=0; p<o;p++)
+{
+ document.write("p = " + p +"<br>");
+}
+}
+printprops(5);
